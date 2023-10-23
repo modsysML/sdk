@@ -1,4 +1,7 @@
 # sdk
+The goal of this project is to migrate the sdk related items from the cli tool we've built. This will be everything that is not related to the db-connector repo, and anything in the plugins folder or related to running evaluations (see [docs](https://modsys.vercel.app/docs/params)). As a user I should have the ability to run `detectText`, `detectImage` and `use` from the client. I should have access to `sightengine` and `google` ai providers written in the cli tool already. 
+
+To test your work please refer to our docs on how to setup a api key with those providers here, https://modsys.vercel.app/docs/api/sightengine - (Sightengine is probably easiest, feel free to try google perspective out as well.) 
 
 ### Setting up dev env
 At this point you should've setup your virtual env
