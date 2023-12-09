@@ -17,7 +17,6 @@
 from dotenv import load_dotenv
 
 import os
-import os
 import os.path
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
